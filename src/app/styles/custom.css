@@ -1,0 +1,286 @@
+.todo-done {
+    text-decoration: line-through;
+}
+.hidden.menu {
+    display: none;
+}
+
+.masthead.segment {
+    min-height: 700px;
+    padding: 1em 0em;
+}
+
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+    padding: 0em;
+}
+
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+
+    .masthead.segment {
+        min-height: 350px;
+    }
+
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}
+
+.main {
+    padding-top: 10px;
+}
+
+.gamebox {
+    position: relative;
+}
+
+body {
+    background: rgb(11, 88, 28) url('https://kinogrecia.com/images/kino-bg.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+
+.green-balls .numberCircle{
+    background: #03a94e;
+    border: 2px solid #000000;
+}
+
+.blue-balls .numberCircle{
+    background: #0072ff;
+    border: 2px solid #000000;
+}
+
+.ticket-label {
+ color:white!important;
+}
+.small-draw {
+    display: inline-block;
+}
+
+.small-draw .numberCircle {
+    width: 27px;
+    height: 27px;
+    font-size: 14px;
+}
+
+.small-draw .numberCircle span {
+    line-height: 22px;
+}
+
+
+.numberCircle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 15px;
+    background: #000;
+    color:#FFF;
+    border: 2px solid #b3afb4;
+}
+
+.numberCircle span {
+    text-align: center;
+    line-height: 30px;
+    display: block;
+}
+
+.numberCircle .active {
+    background:#0072ff !important;
+    border-radius: 50%;
+    width: 31px;
+    height: 31px;
+}
+
+.row-padding {
+    padding-bottom: 5px;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.right {
+   float:right
+}
+.left {
+   float:left;
+}
+
+.logo {
+    min-width: 85px;
+    margin:0 auto !important;
+}
+
+.draw-time  {
+    margin: 0 auto !important;
+}
+
+.mobile-margin-right {
+    margin-right: 14px !important;
+}
+
+@media screen and (max-width: 480px) {
+    .mobile-margin-right {
+        margin-right: 18px !important;
+    }
+
+    .mobile-draw .numberCircle {
+        width: 27px;
+        height: 27px;
+        font-size: 14px;
+    }
+
+    .mobile-draw .numberCircle span {
+        line-height: 22px;
+    }
+
+    .ui.checkbox input.hidden + label {
+        font-size:12px;
+        text-align:center;
+    }
+}
+
+.fading-enter {
+    opacity: 0.01;
+}
+
+.fading-enter.fading-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.fading-leave {
+    opacity: 1;
+}
+
+.fading-leave.fading-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+
+.DateInput, .SingleDatePicker {
+    width:100% !important;
+}
+
+
+.DateInput {
+    font-size: 14px;
+    width: 206px;
+    border-radius: 2px;
+    padding: 2px;
+    color: #000;
+}
+
+.CalendarMonth__caption {
+    margin-bottom: 15px !important;
+}
+
+
+.fading-appear {
+    opacity: 0.01;
+}
+
+.fading-appear.fading-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+
+.scroll {
+    opacity: 0.3;
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.arrow-up {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -5px;
+}
+
